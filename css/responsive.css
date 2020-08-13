@@ -15,7 +15,6 @@
 		padding: 8px;
 		width: 23px;
 		font-size: 23px;
-		box-shadow: 2px 2px 2px #080650;
 	}
 
 	.menu-open, .menu-circle {
@@ -31,10 +30,9 @@
 		width: 180px;
 	}
 
-    #content {
-        width: 100%!important;
-
-    }
+  #content {
+    width: 100%!important;
+  }
 }
 
 @media screen and (min-width: 1125px) {

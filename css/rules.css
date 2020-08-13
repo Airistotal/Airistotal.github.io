@@ -1,0 +1,39 @@
+@-webkit-keyframes fill-orange {
+  from {background-color: initial;}
+	to {background-color: rgba(255, 165, 0, 0.7);}
+}
+
+@keyframes fill-orange {
+	from {background-color: initial;}
+	to {background-color: rgba(255, 165, 0, 0.7);}
+}
+
+@-webkit-keyframes flash-orange {
+  from {background-color: initial;}
+	to {background-color: rgba(255, 165, 0, 0.7);}
+}
+
+@keyframes flash-orange {
+	from {background-color: initial;}
+	to {background-color: rgba(255, 165, 0, 0.7);}
+}
+
+@-webkit-keyframes fill-blue {
+      from {background-color: initial;}
+  to {background-color: rgba(44, 84, 156, 0.7);}
+}
+
+@keyframes fill-blue {
+  from {background-color: initial;}
+  to {background-color: rgba(44, 84, 156, 0.7);}
+}
+
+@-webkit-keyframes flash-blue {
+      from {background-color: initial;}
+  to {background-color: rgba(44, 84, 156, 0.7);}
+}
+
+@keyframes flash-blue {
+  from {background-color: initial;}
+  to {background-color: rgba(44, 84, 156, 0.7);}
+}

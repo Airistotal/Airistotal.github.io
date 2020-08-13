@@ -1,0 +1,12 @@
+.flex-item {
+  display: block;
+  border: 1px solid white;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

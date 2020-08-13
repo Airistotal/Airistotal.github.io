@@ -1,0 +1,123 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {  
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Trench;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: tan;
+}
+
+#head {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 75px;
+  font-family: Trench;
+}
+
+#body {
+	overflow: hidden;
+	width: 100%;
+	padding-right: 15px;
+}
+
+#content_padding {
+  display: block;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#content {
+  position: relative;
+  display: block;
+  width: 850px;
+  max-width: 1200px;
+  height: 100vh;
+  margin: auto;
+  border: 1px solid #FFF;
+  border-top: none;
+  border-bottom: none;
+  overflow: overlay;
+}
+
+#page {
+  height: 100%;
+  margin-left: 61px;
+  margin-right: 80px;
+  color: white;
+}
+
+#main-logo {
+	font-family: Trench;
+	font-size: 200%;
+	color: #FFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#headshot {
+  position: relative;
+  width: 50%;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#torsoshot, #taocse-logo {
+  position: relative;
+  display: block;
+  width: 25%;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  display: inline-block;
+  margin: 0;
+  margin-left: 1px;
+}
+
+.simple-link {
+	text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,72 @@
+#menu-items {
+  margin: 0;
+  padding: 0;
+}
+
+.desktop-menu {
+  font-family: Trench;
+  font-size: 150%;
+  text-align: center;
+  position: fixed;
+  height: 100%;
+  width: 225px;
+  top: 0;
+  border: 1px solid #FFF;
+  border-top: none;
+  border-bottom: none;
+  right: -5px;
+}
+
+.menu-open, .menu-circle {
+  height: 65px;
+  width: 65px;
+  border: 1px solid #FFF;
+  border-radius: 32.5px;
+}
+
+.menu-open:hover, .menu-circle:hover {
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.menu-open:active, .menu-circle:active {
+  animation-duration: 0.2s;
+}
+
+.menu-circle {
+  opacity: 0;
+}
+
+.phone-menu {
+  text-align: center;
+  position: fixed;
+  height: 100%;
+  width: 65px;
+  top: 5px;
+  right: 5px;
+}
+
+  .phone-menu .simple-link {
+    pointer-events: none;
+    cursor: default;
+  }
+
+.side-button {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  line-height: 100px;
+  cursor: pointer;
+}
+
+.side-button:hover {
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.side-button:active {
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}

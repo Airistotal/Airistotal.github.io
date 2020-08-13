@@ -1,0 +1,110 @@
+/* ==================
+  Teal Theme
+================== */ 
+
+.default-theme, .teal-theme {
+  background-image: url(../res/img/theme/cyber2.jpg);
+}
+
+.default-theme .fa, .teal-theme .fa {
+    box-shadow: 6px 6px 2px black;
+    border: solid black 1px;
+}
+
+.default-theme #content, .teal-theme #content {
+  background-color: rgba(3, 33, 33, 0.96);
+}
+
+.default-theme .desktop-menu, .teal-theme .desktop-menu {
+  background-color: rgba(3, 33, 33, 0.9);
+}
+
+.default-theme .menu-open, .default-theme .menu-circle,
+.teal-theme .menu-open, .teal-theme .menu-circle {
+  background-color: rgba(3, 33, 33, 0.9);
+}
+
+.teal-theme .menu-open:active, .teal-theme .menu-circle:active,
+.default-theme .menu-open:active, .default-theme .menu-circle:active {
+  animation-name: flash-orange;
+}
+
+.default-theme  .side-button:active, .teal-theme .side-button:active {
+  animation-name: flash-orange;
+}
+
+.teal-theme .menu-open:hover, .teal-theme .menu-circle:hover,
+.default-theme .menu-open:hover, .default-theme .menu-circle:hover {
+  animation-name: fill-orange;
+}
+
+.default-theme .side-button:hover, .teal-theme .side-button:hover {
+  animation-name: fill-orange;
+}
+
+.default-theme .portfolio-item:active, .teal-theme .portfolio-item:active {
+  animation-name: flash-orange;
+}
+
+.default-theme .portfolio-item:hover, .teal-theme .portfolio-item:hover {
+  animation-name: fill-orange;
+}
+
+/* ==================
+  Blue Theme
+================== */ 
+
+.blue-theme {
+  background: linear-gradient(to bottom right, #686868, #999999);
+}
+
+.blue-theme .fa {
+    box-shadow: 6px 6px 2px #080650;
+    border: solid #080650 1px;
+}
+
+.blue-theme #content {
+  background-color: rgba(0, 134, 219, 0.98);
+}
+
+.blue-theme .desktop-menu {
+  background-color: rgba(0, 134, 219, 0.8);
+}
+
+.blue-theme .menu-open, .menu-circle {
+  background-color: rgba(0, 134, 219, 0.9);
+}
+
+.blue-theme .menu-open:active, .menu-circle:active {
+  animation-name: flash-blue;
+}
+
+.blue-theme .side-button:active {
+  animation-name: flash-blue;
+}
+
+.blue-theme .menu-open:hover, .menu-circle:hover {
+  animation-name: fill-blue;
+}
+
+.blue-theme .side-button:hover {
+  animation-name: fill-blue;
+}
+
+.blue-theme .portfolio-item:active {
+  animation-name: flash-blue;
+}
+
+.blue-theme .portfolio-item:hover {
+  animation-name: fill-blue;
+}
+
+@media screen and (max-width: 540px) {
+  .default-theme, .teal-theme > .fa {
+    box-shadow: 2px 2px 2px black;
+  }
+
+  .blue-theme > .fa {
+    box-shadow: 2px 2px 2px #080650;
+  }
+}

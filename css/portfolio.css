@@ -1,0 +1,22 @@
+.portfolio-item a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio-item {
+  width: 200px;
+  text-align: center;
+  line-height: 2em;
+}
+
+.portfolio-item:active {
+  animation-duration: 0.2s;
+}
+
+.portfolio-item:hover {
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
