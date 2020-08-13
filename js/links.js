@@ -77,9 +77,7 @@ function GetPageUrl(type) {
 $(document).ready( function() {
   InitialLoadPage();
 
-  $(".menu-open").on("tap click", function(e) {
-    ToggleMenu();
-  });
+  $(".menu-open").on("tap click", function(e) { ToggleMenu(); });
   
   $(".simple-link, .menu-circle, .phone-menu").on("mouseover", function(e) {
     e.stopPropagation();
@@ -93,37 +91,27 @@ $(document).ready( function() {
     }
   });
 
-  $(".about").on("tap click", function(e) {
-    LoadPage("about");
-    ToggleMenu();
-  });
+  $(".about").on("tap click", function(e) { LoadPageIfRequired("about"); });
 
-  $(".portfolio").on("tap click", function(e) {
-    LoadPage("portfolio");
-    ToggleMenu();
-  });
+  $(".portfolio").on("tap click", function(e) { LoadPageIfRequired("portfolio"); });
 
-  $(".news").on("tap click", function(e) {
-    LoadPage("news");
-    ToggleMenu();
-  });
+  $(".news").on("tap click", function(e) { LoadPageIfRequired("news"); });
 
-  $(".settings").on("tap click", function(e) {
-    LoadPage("settings");
-    ToggleMenu();
-  });
+  $(".settings").on("tap click", function(e) { LoadPageIfRequired("settings"); });
 
-  $(".contact").on("tap click", function(e) {
-    LoadPage("contact");
-    ToggleMenu();
-  });
+  $(".contact").on("tap click", function(e) { LoadPageIfRequired("contact"); });
 
-  $("body").on("tap click", ".foe-1-9-calculator", function(e) {
-    LoadPage("foe-1-9-calculator");
-    ToggleMenu();
-  });
+  $("body").on("tap click", ".foe-1-9-calculator", function(e) { LoadPageIfRequired("foe-1-9-calculator"); });
 
   $(window).on('popstate', function(e) {
     PreviousLoadPage();
   });
 });
+
+function LoadPageIfRequired(type) {
+  if (getParameterByName("type") !== type) {
+    LoadPage(type);
+  }
+
+  ToggleMenu();
+}
