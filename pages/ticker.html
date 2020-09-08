@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="./js/keyboard.js"></script>
+    <script src="./js/stockselector.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/keyboard.css">
+    <link rel="stylesheet" type="text/css" href="./css/ticker.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  </head>
+  <body>
+    <div id="actionBar">
+      <div id="backToSelector-Container">
+        <button id="backToSelector">
+          <i class="fas fa-chevron-circle-left"></i> Change Stock 
+        </button>
+      </div>
+
+      <div id="stockSelector">
+        <input id="stockSymbol" type="text" placeholder="Stock Symbol" />
+        <button id="stockSymbolSave">
+          Get Graph <i class="fas fa-chevron-circle-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <div id="keyboard"></div>
+
+    <div id="widget"></div>
+  <body>
+</html>
