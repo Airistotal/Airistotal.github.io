@@ -223,6 +223,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "pages/portfolio.html",
+			"settings":
+			{
+				"buffer_size": 1360,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -297,8 +305,7 @@
 	"expanded_folders":
 	[
 		"/C/Users/danie/Documents/Repositories/Airistotal.github.io",
-		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/pages",
-		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/webgl"
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/pages"
 	],
 	"file_history":
 	[
@@ -464,8 +471,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "pages/portfolio.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1360,
+								1360
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -536,7 +574,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Daniel\\source\\repos\\CheckeredBoardGames\\.sublime-project.sublime-workspace"
+				"C:\\Users\\danie\\Documents\\Repositories\\CheckeredBoardGames\\CheckeredBoardGames.sublime-project"
 			]
 		],
 		"width": 380.0
