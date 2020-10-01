@@ -66,6 +66,9 @@ function GetPageUrl(type) {
     case "settings":
       contentUrl = "./pages/settings.html";
       break;
+    case "stock-ticker":
+      contentUrl = "./pages/stock-ticker.html";
+      break;
     default:
       contentUrl = "./pages/about.html";
       break;
@@ -102,6 +105,8 @@ $(document).ready( function() {
   $(".contact").on("tap click", function(e) { LoadPageIfRequired("contact"); });
 
   $("body").on("tap click", ".foe-1-9-calculator", function(e) { LoadPageIfRequired("foe-1-9-calculator"); });
+
+  $("body").on("tap click", ".stock-ticker", function(e) { LoadPageIfRequired("stock-ticker"); });
 
   $(window).on('popstate', function(e) {
     PreviousLoadPage();
