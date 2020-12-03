@@ -2,11 +2,62 @@
 
 <link rel="stylesheet" type="text/css" href="../css/foe_1_9_calculator.css">
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
 <script src="../js/foe_1_9_calculator.js"></script>
 
 <div id="page">
-    <h1 id="head">FoE - 1.9 Calculator</h1>
-    <div id="body">
+  <h1 id="head">FoE - 1.9 Calculator</h1>
+  <div id="body">
+    <select name="Great Building" id="gbs">
+      <option value="" selected>Select a Great Building</option>
+      <option value="Alcatraz">Alcatraz</option>
+      <option value="ArcticOrangery">Arctic Orangery</option>
+      <option value="AtlantisMuseum">Atlantis Museum</option>
+      <option value="Atomium">Atomium</option>
+      <option value="CapeCanaveral">Cape Canaveral</option>
+      <option value="Capitol">Capitol</option>
+      <option value="CastelDelMonte">Castel Del Monte</option>
+      <option value="CathedralOfAachen">Cathedral Of Aachen</option>
+      <option value="ChateauFrontenac">Château Frontenac</option>
+      <option value="Colosseum">Colosseum</option>
+      <option value="DealCastle">Deal Castle</option>
+      <option value="FrauenkircheOfDresden">Fauenkirche Of Dresden</option>
+      <option value="GaeaStatue">Gaea Statue</option>
+      <option value="HagiaSophia">Hagia Sophia</option>
+      <option value="HimejiCastle">Himeji Castle</option>
+      <option value="InnovationTower">Innovation Tower</option>
+      <option value="LighthouseOfAlexandria">Lighthouse Of Alexandria</option>
+      <option value="LotusTemple">Lotus Temple</option>
+      <option value="NotreDame">Notre Dame</option>
+      <option value="Observatory">Observatory</option>
+      <option value="OracleOfDelphi">Oracle Of Delphi</option>
+      <option value="RainForestProject">Rain Forest Project</option>
+      <option value="RoyalAlbertHall">Royal Albert Hall</option>
+      <option value="SeedVault">Seed Vault</option>
+      <option value="SpaceCarrier">Space Carrier</option>
+      <option value="SpaceNeedle">Space Needle</option>
+      <option value="StarGazer">Star Gazer</option>
+      <option value="StatueOfZeus">Statue Of Zeus</option>
+      <option value="StBasilsCathedral">St. Basil's Cathedral</option>
+      <option value="StMarksBasilica">St. Mark's Basilica</option>
+      <option value="TempleOfRelics">Temple Of Relics</option>
+      <option value="TerracottaArmy">Terracotta Army</option>
+      <option value="TheArc">The Arc</option>
+      <option value="TheBlueGalaxy">The Blue Galaxy</option>
+      <option value="TheHabitat">The Habitat</option>
+      <option value="TheKraken">The Kraken</option>
+      <option value="TheVirgoProject">The Virgo Project</option>
+      <option value="TowerOfBabel">Tower Of Babel</option>
+      <option value="TruceTower">Truce Tower</option>
+      <option value="VoyagerV1">Voyager V1</option>
+    </select>
+    <br/>
+    <br/>
+
+    <div class="label">Current Level</div class="label">
+    <input type="number" id="current_level" min="0" max="200" />
+    <br/>
+
     <div class="label">Total FPs required</div class="label">
     <input type="number" id="total_fps" min="0" max="20000" />
     <br/>
@@ -34,9 +85,6 @@
     <div class="label">Fifth place FP reward</div class="label">
     <input type="number" id="fifth_place_fps" min="0" max="10000" />
     <div class="result" id="fifth_place_fps_result">= 0</div>
-    <br/>
-
-    <button id="calucate_output">Calculate</button>
     <br/>
     <br/>
 

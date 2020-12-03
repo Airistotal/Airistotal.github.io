@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"selecetd",
+				"selected_gb_data\tvar"
+			],
+			[
+				"selected",
+				"selected_gb_data\tvar"
+			],
+			[
 				"place",
 				"place_fps\tlet"
 			],
@@ -228,12 +236,30 @@
 	"buffers":
 	[
 		{
-			"file": "assets/gbs_csv/NoAgeLevelRewards.csv",
+			"file": "pages/foe_1_9_calculator.html",
 			"settings":
 			{
-				"buffer_size": 1536,
+				"buffer_size": 4426,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/foe_1_9_calculator.js",
+			"settings":
+			{
+				"buffer_size": 2058,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/gbs_csv/ArcticOrangery.csv",
+			"settings":
+			{
+				"buffer_size": 1674,
 				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -309,13 +335,35 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/danie/Documents/Repositories/Airistotal.github.io",
-		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets",
-		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv",
-		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/webgl"
+		"/C/Users/Daniel/source/repos/Airistotal.github.io",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/js",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/pages"
 	],
 	"file_history":
 	[
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/TruceTower.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/TheVirgoProject.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/TheBlueGalaxy.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/TheArc.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/TerracottaArmy.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/js/foe_1_9_calculator.js",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/TempleOfRelics.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/StarGazer.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/SpaceNeedle.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/SeedVault.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/Observatory.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/HimejiCastle.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/InnovationTower.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/LotusTemple.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/GaeaStatue.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/DealCastle.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/CastelDelMonte.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/AtlantisMuseum.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/ArcticOrangery.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/assets/gbs_csv/Alcatraz.csv",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/js/lib/papaparse.min.js",
 		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/Observatory.csv",
 		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/TerracottaArmy.csv",
 		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/TheBlueGalaxy.csv",
@@ -422,28 +470,7 @@
 		"/C/Users/Daniel/source/repos/Airistotal.github.io/pages/stock-ticker.html",
 		"/C/Users/Daniel/source/repos/Airistotal.github.io/js/links.js",
 		"/C/Users/Daniel/source/repos/Airistotal.github.io/pages/portfolio.html",
-		"/C/Users/Daniel/source/repos/Airistotal.github.io/js/stock-ticker.js",
-		"/C/Users/Daniel/source/repos/Airistotal.github.io/pages/ticker/ticker.html",
-		"/C/Users/Daniel/source/repos/Airistotal.github.io/pages/ticker/js/keyboard.js",
-		"/C/Users/Daniel/source/repos/Airistotal.github.io/web.config",
-		"/C/Users/Daniel/source/repos/IOT.StockTicker.Web/src/ticker.html",
-		"/C/Users/Daniel/source/repos/IOT.StockTicker.Web/src/js/stockselector.js",
-		"/C/Users/Daniel/source/repos/IOT.StockTicker.Web/fs_installer",
-		"/C/Users/Daniel/source/repos/IOT.StockTicker.Web/autostart",
-		"/C/Users/Daniel/source/repos/IOT.StockTicker.Web/src/js/keyboard.js",
-		"/C/Users/Daniel/source/repos/IOT.StockTicker.Web/src/css/keyboard.css",
-		"/C/Users/Daniel/source/repos/IOT.StockTicker.Web/src/css/ticker.css",
-		"/C/Users/Daniel/source/repos/IOT.StockTicker.Web/ticker.html",
-		"/C/Users/Daniel/Desktop/testing.html",
-		"/C/Users/Daniel/AppData/Roaming/.technic/modpacks/blightfall/config/InvTweaksRules.txt",
-		"/C/Users/Daniel/Downloads/stg24api.txt",
-		"/C/Users/Daniel/Desktop/2020065AzN-Artifacts/appsettings.Development.json",
-		"/C/Users/Daniel/AppData/Local/Temp/Temp1_Artifacts.zip/aws-windows-deployment-manifest.json",
-		"/C/Users/Daniel/Desktop/2020065AzN-Artifacts/aws-windows-deployment-manifest.json",
-		"/C/Users/Daniel/Desktop/2020065AzN-Artifacts/appsettings.json",
-		"/C/Users/Daniel/Desktop/2020065AzN-Artifacts/appsettings.Production.json",
-		"/C/Users/Daniel/Desktop/2020096vcn-Artifacts/appsettings.Development.json",
-		"/C/Users/Daniel/Desktop/2020096vcn-Artifacts/appsettings.json"
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/js/stock-ticker.js"
 	],
 	"find":
 	{
@@ -461,6 +488,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			",,,,,,,,,,,,",
+			"\",\n",
+			",,,,,,,,,,,,,,,",
+			",,,,,,,,,,",
 			" 1,\n",
 			" [0-9]*,[0-9]* [0-9]*  [0-9]*\n",
 			" [0-9]*,[0-9]*  [0-9]*  [0-9]*\n",
@@ -476,6 +507,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"",
 			"\n",
 			""
 		],
@@ -488,24 +520,91 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "assets/gbs_csv/NoAgeLevelRewards.csv",
-					"semi_transient": true,
+					"file": "pages/foe_1_9_calculator.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1536,
+						"buffer_size": 4426,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								309,
-								309
+								3315,
+								3300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 835.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/foe_1_9_calculator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1951,
+								1951
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/gbs_csv/ArcticOrangery.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1292,
+								1292
 							]
 						],
 						"settings":
@@ -513,10 +612,10 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1350.4,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -569,7 +668,7 @@
 	"project": "Airistotal.github.io.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
