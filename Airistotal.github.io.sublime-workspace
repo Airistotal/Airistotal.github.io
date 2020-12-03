@@ -228,37 +228,11 @@
 	"buffers":
 	[
 		{
-			"file": "pages/portfolio.html",
+			"file": "assets/gbs_csv/NoAgeLevelRewards.csv",
 			"settings":
 			{
-				"buffer_size": 1374,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "pages/foe_1_9_calculator.html",
-			"settings":
-			{
-				"buffer_size": 1585,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/foe_1_9_calculator.js",
-			"settings":
-			{
-				"buffer_size": 795,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/foe_1_9_calculator.css",
-			"settings":
-			{
-				"buffer_size": 122,
-				"encoding": "UTF-8",
+				"buffer_size": 1536,
+				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
 		}
@@ -336,13 +310,55 @@
 	"expanded_folders":
 	[
 		"/C/Users/danie/Documents/Repositories/Airistotal.github.io",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv",
 		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/webgl"
 	],
 	"file_history":
 	[
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/Observatory.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/TerracottaArmy.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/TheBlueGalaxy.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/TheKraken.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/AtlantisMuseum.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/ArcticOrangery.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/SeedVault.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/GaeaStatue.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/RainForestProject.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/TheArc.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/TruceTower.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/VoyagerV1.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/InnovationTower.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/LotusTemple.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/TheHabitat.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/CapeCanaveral.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/Atomium.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/SpaceNeedle.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/Alcatraz.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/ChateauFrontenac.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/Capitol.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/DealCastle.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/RoyalAlbertHall.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/FrauenkircheOfDresden.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/CastelDelMonte.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/StBasilsCathedral.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/TempleOfRelics.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/NotreDame.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/StMarksBasilica.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/CathedralOfAachen.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/HagiaSophia.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/LighthouseOfAlexandria.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/Colosseum.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/StatueOfZeus.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/TowerOfBabel.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/OracleOfDelphi.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/assets/gbs_csv/GenericLvlRewards.csv",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/css/foe_1_9_calculator.css",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/js/foe_1_9_calculator.js",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/pages/foe_1_9_calculator.html",
+		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/pages/portfolio.html",
 		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/webgl/css/style.css",
 		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/webgl/js/wglmain.js",
-		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/pages/portfolio.html",
 		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/webgl/index.html",
 		"/C/Users/danie/Documents/Repositories/Airistotal.github.io/webgl/src/index.html",
 		"/C/Users/danie/Documents/Repositories/CheckeredBoardGames/tests/business/chess/movementJudges/KingMovementJudge.test.ts",
@@ -427,51 +443,11 @@
 		"/C/Users/Daniel/Desktop/2020065AzN-Artifacts/appsettings.json",
 		"/C/Users/Daniel/Desktop/2020065AzN-Artifacts/appsettings.Production.json",
 		"/C/Users/Daniel/Desktop/2020096vcn-Artifacts/appsettings.Development.json",
-		"/C/Users/Daniel/Desktop/2020096vcn-Artifacts/appsettings.json",
-		"/C/Users/Daniel/Desktop/2020096vcn-Artifacts/aws-windows-deployment-manifest.json",
-		"/C/Users/Daniel/Desktop/2020096vcn-Artifacts/Api.deps.json",
-		"/C/Users/Daniel/Desktop/2020096vcn-Artifacts/Api.runtimeconfig.json",
-		"/C/Users/Daniel/AppData/Local/Temp/Temp1_2020096vcn-Artifacts.zip/appsettings.Development.json",
-		"/C/Users/Daniel/source/repos/Engage.io/README.md",
-		"/C/Users/Daniel/AppData/Local/Temp/Temp1_2020096vcn-Artifacts.zip/appsettings.json",
-		"/C/Users/Daniel/Documents/My Games/Neopets",
-		"/C/Users/Daniel/Documents/My Games/IF needs",
-		"/C/Users/Daniel/Documents/My Games/mine/MonsterMusume_game.txt",
-		"/C/Users/Daniel/Documents/Minecraft Servers/Blightfall_Server_v2.1.5/PerfectSpawn.json",
-		"/C/Users/Daniel/Documents/Minecraft Servers/Blightfall_Server_v2.1.5/eula.txt",
-		"/C/Users/Daniel/Documents/Minecraft Servers/Blightfall_Server_v2.1.5/server.properties",
-		"/C/Users/Daniel/Desktop/livestream.html",
-		"/C/Users/Daniel/Desktop/FB Lead Poller.py",
-		"/C/Users/Daniel/Desktop/dosshell-portable/apps.txt",
-		"/C/Users/Daniel/AppData/Local/Temp/Temp1_Artifacts.zip/appsettings.Production.json",
-		"/C/Users/Daniel/Desktop/appsettings.Production.json",
-		"/C/Users/Daniel/source/repos/Engage.io/Build/build.ps1",
-		"/C/Users/Daniel/Desktop/appsettings.json",
-		"/C/Users/Daniel/source/repos/Engage.io/Source/API/appsettings.json",
-		"/C/Users/Daniel/.ssh/aws-eb.pub",
-		"/C/Users/Daniel/.ssh/aws-eb",
-		"/C/Users/Daniel/source/repos/Engage.io/.circleci/config.yml",
-		"/C/Users/Daniel/AppData/Local/Temp/Temp2_Artifacts.zip/wwwroot/js/app.3d250afb.js",
-		"/C/Users/Daniel/AppData/Local/Temp/Temp2_Artifacts.zip/wwwroot/js/app.ede3b820.js",
-		"/C/Users/Daniel/AppData/Local/Temp/Temp2_Artifacts.zip/aws-windows-deployment-manifest.json",
-		"/C/Users/Daniel/source/repos/Engage.io/Build/aws-windows-deployment-manifest.json",
-		"/C/Users/Daniel/Desktop/ip.txt",
-		"/C/Users/Daniel/Desktop/Blightfall_Server_v2.1.5/eula.txt",
-		"/C/Users/Daniel/Desktop/Logs/www38.csv",
-		"/C/Users/Daniel/Desktop/Logs/Log formatting.txt",
-		"/C/Users/Daniel/Desktop/Logs/www28/Service/20200102.txt",
-		"/C/Users/Daniel/Desktop/Logs/www28/Service/20200101.txt",
-		"/C/Users/Daniel/Desktop/Logs/www24/Service/20200101.txt",
-		"/C/Users/Daniel/Desktop/Logs/www24/Service/20200102.txt",
-		"/C/Users/Daniel/Desktop/Logs/www24.csv",
-		"/C/Users/Daniel/Desktop/Logs/www24/Service/20191228.txt",
-		"/C/Users/Daniel/Desktop/Logs/20200102.txt",
-		"/C/Users/Daniel/Desktop/Logs/20200101.txt",
-		"/C/Users/Daniel/Desktop/Logs/www23.csv"
+		"/C/Users/Daniel/Desktop/2020096vcn-Artifacts/appsettings.json"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -485,13 +461,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" 1,\n",
+			" [0-9]*,[0-9]* [0-9]*  [0-9]*\n",
+			" [0-9]*,[0-9]*  [0-9]*  [0-9]*\n",
+			" [0-9]*,[0-9]*  [0-9]* [0-9]*\n",
+			"[0-9]*,[0-9]* [0-9]* [0-9]*\n",
+			"→[0-9][0-9]?",
+			" → [0-9][0-9]?",
+			"→[0-9][0-9]?"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\n",
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -502,126 +488,35 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "pages/portfolio.html",
-					"semi_transient": false,
+					"file": "assets/gbs_csv/NoAgeLevelRewards.csv",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1374,
+						"buffer_size": 1536,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								777,
-								777
+								309,
+								309
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "pages/foe_1_9_calculator.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1585,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1405,
-								1405
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "js/foe_1_9_calculator.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 795,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								771,
-								771
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"use_tab_stops": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/foe_1_9_calculator.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 122,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								122,
-								122
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -674,7 +569,7 @@
 	"project": "Airistotal.github.io.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
