@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" type="text/css" href="./css/svg-text-outliner.css">
+<script src="../js/svg-text-outliner.js"></script>
+
+<!-- https://stackoverflow.com/questions/4919076/outline-effect-to-text -->
+
+<div id="page">
+  <h1 id="head">Text Outliner</h1>
+
+  <label>Outline color:</label>
+  <input type="color" id="outline-color" name="head" value="#000000">
+
+  <label>Background color:</label>
+  <input type="color" id="background-color" name="head" value="#ffffff">
+
+  <br/>
+  <br/>
+
+  <textarea id="outliner-text-input" placeholder="Enter text to outline" rows="5"></textarea> 
+  
+  <br/>
+  <br/>
+
+  <div id="outliner-container">
+    <svg id="outliner-output-container" viewBox="0 0 450 50">
+    </svg>
+  </div>
+  
+</div>

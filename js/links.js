@@ -54,9 +54,6 @@ function GetPageUrl(type) {
     case "portfolio":
       contentUrl = "./pages/portfolio.html";
       break;
-    case "news":
-      contentUrl = "./pages/news.html";
-      break;
     case "contact":
       contentUrl = "./pages/contact.html";
       break;
@@ -68,6 +65,9 @@ function GetPageUrl(type) {
       break;
     case "stock-ticker":
       contentUrl = "./pages/stock-ticker.html";
+      break;
+    case "svg-text-outliner":
+      contentUrl = "./pages/svg-text-outliner.html";
       break;
     default:
       contentUrl = "./pages/about.html";
@@ -98,8 +98,6 @@ $(document).ready( function() {
 
   $(".portfolio").on("tap click", function(e) { LoadPageIfRequired("portfolio"); });
 
-  $(".news").on("tap click", function(e) { LoadPageIfRequired("news"); });
-
   $(".settings").on("tap click", function(e) { LoadPageIfRequired("settings"); });
 
   $(".contact").on("tap click", function(e) { LoadPageIfRequired("contact"); });
@@ -107,6 +105,8 @@ $(document).ready( function() {
   $("body").on("tap click", ".foe-1-9-calculator", function(e) { LoadPageIfRequired("foe-1-9-calculator"); });
 
   $("body").on("tap click", ".stock-ticker", function(e) { LoadPageIfRequired("stock-ticker"); });
+  
+  $("body").on("tap click", ".svg-text-outliner", function(e) { LoadPageIfRequired("svg-text-outliner"); });
 
   $(window).on('popstate', function(e) {
     PreviousLoadPage();
