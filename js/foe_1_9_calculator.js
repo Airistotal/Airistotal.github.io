@@ -27,8 +27,6 @@ function updateForgePointRewards() {
   if (selected_gb_data) {
     selected_gb_data.forEach((e) => {
       if (e.Level === selected_level) {
-        
-
         var firstPlace = e.FirstPlace.replace(',', '');
         var required = e.Required.replace(',', '');
 
