@@ -17,6 +17,10 @@
   right: -5px;
 }
 
+.menu-circle {
+  opacity: 0;
+}
+
 .menu-open, .menu-circle {
   height: 65px;
   width: 65px;
@@ -33,10 +37,6 @@
   animation-duration: 0.2s;
 }
 
-.menu-circle {
-  opacity: 0;
-}
-
 .phone-menu {
   text-align: center;
   position: fixed;
@@ -49,6 +49,38 @@
   .phone-menu .simple-link {
     pointer-events: none;
     cursor: default;
+  }
+
+  .phone-menu div {
+    background-size: cover;
+    height: 65px;
+    margin-bottom: 5px;
+    border: 1px solid #FFF;
+  }
+
+  .phone-menu .menu-open {
+    background: url("../res/img/menu/menu_ico.png");
+    background-size: cover;
+  }
+
+  .phone-menu .about {
+    background: url("../res/img/menu/about_ico.png");
+    background-size: cover;
+  }
+
+  .phone-menu .portfolio {
+    background: url("../res/img/menu/logo_ico.png");
+    background-size: cover;
+  }
+
+  .phone-menu .settings {
+    background: url("../res/img/menu/theme_ico.png");
+    background-size: cover;
+  }
+
+  .phone-menu .contact {
+    background: url("../res/img/menu/contact_ico.png");
+    background-size: cover;
   }
 
 .side-button {

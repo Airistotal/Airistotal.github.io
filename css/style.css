@@ -26,6 +26,12 @@ a:visited {
   color: tan;
 }
 
+#main-logo {
+  background: url("../res/img/menu/DJB.png");
+  height: 100px;
+  background-size: cover;
+}
+
 #head {
   margin: 0;
   padding-top: 50px;

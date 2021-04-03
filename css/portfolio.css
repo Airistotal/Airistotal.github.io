@@ -20,3 +20,12 @@
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
 }
+
+.portfolio-item a:active {
+  animation-duration: 0.2s;
+}
+
+.portfolio-item a:hover {
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}

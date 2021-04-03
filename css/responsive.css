@@ -26,6 +26,10 @@
 		width: 45px;
 	}
 
+	.phone-menu div {
+		height: 45px;
+	}
+
 	#sm-buttons {
 		width: 180px;
 	}
