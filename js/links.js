@@ -1,4 +1,8 @@
 // from: http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+var isMenuOpen = false;
+var menuButtonHeight = "";
+
+
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     
@@ -12,17 +16,16 @@ function getParameterByName(name, url) {
 }
 
 function ToggleMenu() {
-  var opacity = parseInt($(".menu-circle").css("opacity"));
-  $pm = $(".phone-menu .simple-link");
-  
-  if(opacity == 0) {
-    $pm.css("pointer-events", "auto");
-    $pm.css("cursor", "auto");
-    $(".menu-circle").animate({opacity: 1.0}, 100);
+  $pm = $(".phone-menu");
+  menuButtonHeight = $(".menu-circle").css("height");
+
+  if(isMenuOpen) {
+    $(".phone-menu").animate({height: menuButtonHeight}, 200);
+    isMenuOpen = false;
   } else {
-    $pm.css("pointer-events", "none");
-    $pm.css("cursor", "default");
-    $(".menu-circle").animate({opacity: 0.0}, 100);
+    menuHeight = parseInt(menuButtonHeight) * 5;
+    $(".phone-menu").animate({height: menuHeight + "px"}, 200);
+    isMenuOpen = true;
   }
 }
 
@@ -82,14 +85,16 @@ $(document).ready( function() {
 
   $(".menu-open").on("tap click", function(e) { ToggleMenu(); });
   
-  $(".simple-link, .menu-circle, .phone-menu").on("mouseover", function(e) {
-    e.stopPropagation();
+  $("#menu").on("mouseleave", function(e) {
+    if(isMenuOpen) {
+      ToggleMenu();
+    }
   });
-  
-  $(":not(.simple-link, .menu-circle, .phone-menu)").on("mouseover", function(e) {
-    var opacity = parseInt($(".menu-circle").css("opacity"));
-  
-    if(opacity == 1) {
+
+  $("body").on("tap click", function(e) {
+    if(isMenuOpen && 
+       e.target.className != "menu-img-button" &&
+       e.target.className != "menu-open") {
       ToggleMenu();
     }
   });

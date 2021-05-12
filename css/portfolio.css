@@ -1,31 +1,16 @@
-.portfolio-item a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  height: 100%;
+.portfolio-item {
+  width: 100%;
+  display: flex;
+}
+
+.portfolio-img {
+  flex-shrink: 1;
+}
+
+.portfolio-img img {
   width: 100%;
 }
 
-.portfolio-item {
-  width: 200px;
-  text-align: center;
-  line-height: 2em;
-}
-
-.portfolio-item:active {
-  animation-duration: 0.2s;
-}
-
-.portfolio-item:hover {
-  animation-duration: 0.2s;
-  animation-fill-mode: forwards;
-}
-
-.portfolio-item a:active {
-  animation-duration: 0.2s;
-}
-
-.portfolio-item a:hover {
-  animation-duration: 0.2s;
-  animation-fill-mode: forwards;
+.portfolio-desc {
+  flex-shrink: 1;
 }

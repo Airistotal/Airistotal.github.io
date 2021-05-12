@@ -1,6 +1,19 @@
 #sm-buttons {
-	position: relative;
-	margin: auto;
-	height: 100px;
-	width: 505px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#tpt-link {
+  margin: 15px;
+  height: 60px;
+  width: 60px;
+  background-image: url("../res/img/pages/contact/tpt_logo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tpt-link:hover {
+  cursor: pointer;
 }

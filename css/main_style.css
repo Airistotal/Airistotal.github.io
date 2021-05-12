@@ -1,0 +1,124 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3a4041;
+  color: lightgray;
+  font-family: Calibri;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: Trench;
+  padding-left: 3px;
+}
+
+hr {
+  border: solid #408c5e 2px;
+  border-radius: 6px;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: tan;
+}
+
+#head {
+  display: block;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 76px;
+  font-family: Trench;
+}
+
+#site {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#splitter {
+  border: solid #408c5e 3px;
+  border-radius: 6px;
+}
+
+#content {
+  width: 850px;
+  max-width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#page {
+  overflow: overlay;
+  height: 100%;
+}
+
+#body {
+  display: block;
+}
+
+#main-logo {
+  background: url("../res/img/menu/Circle lines logo.png");
+  height: 100px;
+  width: 160px;
+  margin-bottom: 40px;
+  background-position: center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.side-button
+{
+  width: fit-content;
+  font-family: Trench;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+
+  background: linear-gradient(to left, #3a4041 50%, #a3320b 50%) right;
+  background-size: 200%;
+  transition: .25s ease-out;
+}
+
+.side-button:hover {
+    background-position: left;
+}
+
+.phone-menu {
+  height: 60px;
+  background-color: #3a4041;
+  overflow: hidden;
+  border-bottom: solid #408c5e 2px;
+  border-left: solid #408c5e 2px;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: black -2px 2px 7px;
+}
+
+.menu-open {
+  cursor: pointer;
+}
+
+.menu-img-button {
+  height: 60px;
+  width: 60px;
+}
+
+.menu-circle {
+  cursor: pointer;
+}
