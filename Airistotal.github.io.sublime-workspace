@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"num",
+				"num_sides"
+			],
+			[
+				"Load",
+				"LoadPageIfRequired\tfunction"
+			],
+			[
 				"selecetd",
 				"selected_gb_data\tvar"
 			],
@@ -236,39 +244,31 @@
 	"buffers":
 	[
 		{
-			"file": "css/themes.css",
+			"file": "pages/geometry-drawer.html",
 			"settings":
 			{
-				"buffer_size": 4787,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/menu.css",
-			"settings":
-			{
-				"buffer_size": 1792,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/responsive.css",
-			"settings":
-			{
-				"buffer_size": 966,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 2506,
+				"buffer_size": 450,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/geometry-drawer.js",
+			"settings":
+			{
+				"buffer_size": 2223,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/geometry-drawer.css",
+			"settings":
+			{
+				"buffer_size": 61,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#geometry-display {"
 			}
 		}
 	],
@@ -345,18 +345,25 @@
 	"expanded_folders":
 	[
 		"/C/Users/Daniel/source/repos/Airistotal.github.io",
-		"/C/Users/Daniel/source/repos/Airistotal.github.io/css",
 		"/C/Users/Daniel/source/repos/Airistotal.github.io/js",
 		"/C/Users/Daniel/source/repos/Airistotal.github.io/pages"
 	],
 	"file_history":
 	[
+		"/C/Users/Daniel/Downloads/FindingAreaofaRectangleUsingTilingandMultiplication-1.pub",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/pages/portfolio.html",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/js/links.js",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/js/geometry-drawer.js",
+		"/C/Users/Daniel/Downloads/Mencius_Book_VI_-_Part_B.txt",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/index.html",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/css/responsive.css",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/css/menu.css",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/css/themes.css",
+		"/C/Users/Daniel/source/repos/Airistotal.github.io/pages/about.html",
+		"/C/Users/Daniel/Downloads/MTS_simsi45_1827288_Simsi45_Sims_4_Ikea_Home_Stuff_(pt1)/Manual.txt",
 		"/C/Users/Daniel/source/repos/Airistotal.github.io/pages/settings.html",
 		"/C/Users/Daniel/source/repos/Airistotal.github.io/css/portfolio.css",
-		"/C/Users/Daniel/source/repos/Airistotal.github.io/pages/portfolio.html",
 		"/C/Users/Daniel/source/repos/Airistotal.github.io/css/rules.css",
-		"/C/Users/Daniel/source/repos/Airistotal.github.io/css/themes.css",
-		"/C/Users/Daniel/source/repos/Airistotal.github.io/index.html",
 		"/C/Users/Daniel/source/repos/Airistotal.github.io/css/style.css",
 		"/C/Users/Daniel/OneDrive/Documents/TeachersPayTeachers/Computer Science/Coffee Pot Project/coffee_pot_template.py",
 		"/C/Users/Daniel/source/repos/Airistotal.github.io/css/ticker.css",
@@ -470,19 +477,11 @@
 		"/C/Users/danie/Documents/Repositories/CheckeredBoardGames/src/models/BoardTile.ts",
 		"/C/Users/danie/Documents/Repositories/CheckeredBoardGames/src/models/enums/BoardPieceType.ts",
 		"/C/Users/danie/Documents/Repositories/CheckeredBoardGames/src/models/Board.ts",
-		"/C/Users/danie/Documents/Repositories/CheckeredBoardGames/tests/models/Board.test.ts",
-		"/C/Users/danie/Documents/Repositories/CheckeredBoardGames/src/models/GamePiece.ts",
-		"/C/Users/danie/Documents/Repositories/CheckeredBoardGames/tsconfig.json",
-		"/C/Users/danie/Documents/Repositories/CheckeredBoardGames/package.json",
-		"/C/Users/Daniel/source/repos/CheckeredBoardGames/tsconfig.json",
-		"/C/Users/Daniel/source/repos/CheckeredBoardGames/package.json",
-		"/C/Users/Daniel/source/repos/CheckeredBoardGames/CheckeredBoardGames.sublime-project",
-		"/C/Users/Daniel/source/repos/CheckeredBoardGames/env.bat",
-		"/C/Users/Daniel/source/repos/CheckeredBoardGames/.sublime-project.sublime-workspace"
+		"/C/Users/danie/Documents/Repositories/CheckeredBoardGames/tests/models/Board.test.ts"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -496,6 +495,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"angle-display",
 			"about",
 			",,,,,,,,,,,,",
 			"\",\n",
@@ -516,6 +516,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"geometry-display",
 			"",
 			"\n",
 			""
@@ -534,29 +535,35 @@
 			[
 				{
 					"buffer": 0,
-					"file": "css/themes.css",
+					"file": "pages/geometry-drawer.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4787,
+						"buffer_size": 450,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3816,
-								3816
+								450,
+								450
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 2528.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -564,29 +571,30 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/menu.css",
+					"file": "js/geometry-drawer.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1792,
+						"buffer_size": 2223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								781,
-								781
+								1853,
+								1853
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 648.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -594,23 +602,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "css/responsive.css",
+					"file": "css/geometry-drawer.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 966,
+						"buffer_size": 61,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								376,
-								376
+								58,
+								58
 							]
 						],
 						"settings":
 						{
+							"auto_name": "#geometry-display {",
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -618,36 +627,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2506,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1619,
-								1619
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 378.4,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -700,7 +679,7 @@
 	"project": "Airistotal.github.io.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":

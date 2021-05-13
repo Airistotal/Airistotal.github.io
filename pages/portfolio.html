@@ -1,71 +1,85 @@
 <!DOCTYPE html>
 
-<link rel="stylesheet" type="text/css" href="./css/flex-list.css">
 <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
 
-<h1 id="head">Portfolio</h1>
-<hr/>
-<br/>
 
 <div id="page">
-  <div id="body">
-    <p>
-      I graduated in 2017 and I've been working full-time as a software developer
-      since then. My primary language is C# and I've been working in Microsoft shops.
-      I have experience in many different languages including Python, Java, Ruby, 
-      and C++ to name a few. I have developed a couple apps for Android devices in 
-      academic and personal settings. With regards to web development, I have made 
-      many .net framework websites, vue.js websites, and obviously this website which
-      is mostly based on jQuery.
-    </p>
+  <div id="title">
+    <h1>Portfolio</h1>
+    <hr/>
+  </div>
+  <div id="content">
+    I graduated in 2017 and I've been working full-time as a software developer
+    since then. My primary language is C# and I've been working in Microsoft shops.
+    I have experience in many different languages including Python, Java, and C++ 
+    to name a few. I have developed a couple apps for Android devices in 
+    academic and personal settings. With regards to web development, I have made 
+    many .NET websites, vue.js websites, and this website which is mostly based on jQuery.
 
-    <br/>
-    <h1 class="title">Projects</h1>
+    <h2>Projects</h2>
 
     <p>
       If you're interested in some of the work I've done, have a look at what I'm doing on 
       <a target="_blank" href="https://github.com/Airistotal">GitHub</a>!
     </p>
 
-    <!--
     <div id="porfolio-items">
       <div class="portfolio-item">
         <div class="portfolio-img">
-          <img src="">
-        </div>
-        <div class="portfolio-desc">
-          FoE 1.9 Calculator
-          <a class="portfolio-link foe-1-9-calculator">FoE 1.9 Calculator</a>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <div class="portfolio-img">
           <img src="../res/img/pages/portfolio/chess_board.png">
         </div>
         <div class="portfolio-desc">
-          Checkered boardgame
-          <a class="portfolio-link" href="../webgl/index.html" target="_blank">Play!</a>
+          <h3>Checkered Boardgame</h3>
+          <p>
+            This is my WebGL project of a checkered boardgame. Currently it's just chess, but check
+            back later for more games and two-player support.
+          </p>
+          <a class="portfolio-link" href="../webgl/index.html" target="_blank">Play Game!</a>
         </div>
       </div>
+      <br/>
+
+      <div class="portfolio-item">
+        <div class="portfolio-desc">
+          <h3>Stock Ticker</h3>
+          <p>
+            This is a stock ticker powered by trading view. You can input any stock symbol they support
+            and get that stock's graph. It has an on-screen keyboard if your touchscreen device happens
+            to not have support for that.
+          </p>
+          <div class="portfolio-link stock-ticker">Stock Ticker</div>
+        </div>
+        <div class="portfolio-img">
+          <img src="../res/img/pages/portfolio/stock-ticker.png">
+        </div>
+      </div>
+      <br/>
+
       <div class="portfolio-item">
         <div class="portfolio-img">
-          <img src="../res/img/pages/portfolio/chess_board.png">
+          <img src="../res/img/pages/portfolio/foe-1-9-calculator.png">
         </div>
         <div class="portfolio-desc">
-          Stock Ticker
-          <a class="portfolio-link stock-ticker">Stock Ticker</a>
+          <h3>FoE 1.9 Calculator</h3>
+          <p>
+            This calculator is for the game <a href="https://en0.forgeofempires.com/page/">Forge of Empires</a>
+            and is used to calculate the forge points required to contribute 1.9 * the reward in a Great Building.
+          </p>
+          <div class="portfolio-link foe-1-9-calculator">FoE 1.9 Calculator</div>
         </div>
       </div>
+      <br />
+
       <div class="portfolio-item">
         <div class="portfolio-img">
-          <img src="../res/img/pages/portfolio/chess_board.png">
         </div>
         <div class="portfolio-desc">
-          Text Outliner
-          <a class="portfolio-link svg-text-outliner">Text Outliner</a>
+          <h3>Geometry Drawer</h3>
+          <p>WIP - This will be for creating an svg geometric shape</p>
+          <div class="portfolio-link geometry-drawer">Geometry Drawer</div>
         </div>
       </div>
+      <br />
     </div>
-  -->
   </div>
 </div>

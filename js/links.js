@@ -45,7 +45,7 @@ function LoadPage(type, addHistory=true) {
   $.get(
     GetPageUrl(type),
     function(data) {
-      $("#content").html(data);
+      $("#main-view").html(data);
     });
 }
 
@@ -72,6 +72,9 @@ function GetPageUrl(type) {
     case "svg-text-outliner":
       contentUrl = "./pages/svg-text-outliner.html";
       break;
+     case "geometry-drawer":
+       contentUrl=  "./pages/geometry-drawer.html";
+       break;
     default:
       contentUrl = "./pages/about.html";
       break;
@@ -112,6 +115,8 @@ $(document).ready( function() {
   $("body").on("tap click", ".stock-ticker", function(e) { LoadPageIfRequired("stock-ticker"); });
   
   $("body").on("tap click", ".svg-text-outliner", function(e) { LoadPageIfRequired("svg-text-outliner"); });
+
+  $("body").on("tap click", ".geometry-drawer", function(e) { LoadPageIfRequired("geometry-drawer")});
 
   $(window).on('popstate', function(e) {
     PreviousLoadPage();

@@ -4,13 +4,42 @@
 }
 
 .portfolio-img {
-  flex-shrink: 1;
+  width: 50%;
 }
 
 .portfolio-img img {
   width: 100%;
+  box-shadow: 0px 0px 5px black;
 }
 
 .portfolio-desc {
-  flex-shrink: 1;
+  width: 50%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.portfolio-link {
+	display: block;
+  background-color: #3a4041;
+  border-bottom: solid #408c5e 2px;
+  border-left: solid #408c5e 2px;
+  box-shadow: black -2px 2px 7px;
+  border-radius: 6px;
+  padding: 10px;
+  margin: auto;
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: none;
+  color: orange;
+}
+
+@media screen and (max-width: 540px) {
+  .portfolio-item {
+    flex-wrap: wrap;
+  }
+
+  .portfolio-img {
+    order: -1;
+  }
 }
